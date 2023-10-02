@@ -1,0 +1,15 @@
+library(shiny)
+library(dplyr)
+library(scda)
+library(scda.2022)
+library(teal)
+library(teal.modules.general)
+library(teal.modules.clinical)
+library(nestcolor)
+library(sparkline)
+# library(bsicons)
+library(fontawesome)
+library(shinyFiles)
+
+# Tells Shiny to not use ragg for rendering PNGs
+options(shiny.useragg = FALSE)

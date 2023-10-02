@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat&family=Open+Sans&family=Playfair+Display&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.title_holder {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.navbar-brand {
+  height: 80px !important;
+  padding: 0px 0px !important;
+}
+
+.navbar-nav {
+  padding-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color:rgba(0, 0, 0, 0);
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Lilly Red: #d52b1e */
+.navbar-default {
+  background-color: rgba(0, 0, 0, .45)
+}
+.lillylogo {
+  max-height: 80px;
+}
+
+.mycontainer, .container-fluid {
+  /* max-width: 1000px; */
+  margin: auto;
+}
+
+#teal_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+#teal_subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+button, .nav-pills>li>a {
+  border-radius: 50px !important;
+}
+
+#getstarted {
+  border-color: #ffffff;
+  color: #ffffff;
+  background: none;
+  font-size: 2em;
+  margin-top: 15px;
+}
+
+
+
+.parent {
+  display: flex;
+  margin-left: -15px;
+}
+#cancel {
+  width: 200px;
+  /* Just so it's visible */
+}
+#create_project, #select_data {
+  width: 200px;
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: #ffffff;
+  border-color: #ffffff;
+}
+  
+a {
+    color: #302b63;
+    text-decoration: none;
+}
+
+
+#my_teal_application {
+  background-color: #ffffff;
+  border-color: #000000;
+  box-shadow: 3px;
+}
+
+
+
+
+.gallery-container {
+  height: 150px;
+  width: 200px;
+  background-color: #ffffff;
+  box-shadow: 0 0 25px rgba(17, 1, 68, 0.08);
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 15px;
+  margin: 10px;
+  
+}
+
+input[type="checkbox"] {
+  width: 100%;
+  cursor: pointer;
+  font-weight: 400;
+  right: -75px;
+  top: -5px;
+  height: 20px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  opacity: 1 !important;
+  z-index: unset;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  z-index: 1;
+  position: absolute;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
